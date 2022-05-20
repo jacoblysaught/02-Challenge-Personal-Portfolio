@@ -97,19 +97,21 @@ aside {
     font-size: 225%;
     margin-left: 175px;
     margin-top: 25px;
-
+    font-style: oblique;
 }
 #contact {
     font-size: 225%;
     margin-left: 175px;
     margin-bottom: 20px;
     text-align: center;
+    font-style: oblique;
 }
 #work {
     font-size: 225%;
     margin-left: 200px;
     margin-top: 0px;
     margin-bottom: 20px;
+    font-style: oblique;
 }
 p {
     margin-top: 25px;
@@ -128,7 +130,7 @@ p {
     flex-wrap: wrap;
 }
 .stack {
-    width: 746px;
+    width: 600px;
     height: 10px;
     border: 5px solid rgb(179, 179, 255);
     padding: 160px;
@@ -151,12 +153,11 @@ p {
     padding-bottom: 2px;
     color: rgb(83, 59, 26);
     font-family:monospace;
-
 }
 
 .node {
     float: right;
-    width: 375px;
+    width: 300px;
     height: 20px;
     border: 5px solid rgb(179, 179, 255);
     padding: 75px;
@@ -167,7 +168,7 @@ p {
 }
 
 .java {
-    width: 375px;
+    width: 300px;
     height: 20px;
     border: 5px solid rgb(179, 179, 255);
     padding: 75px;
@@ -179,7 +180,7 @@ p {
 
 .mern {
     float: right;
-    width: 375px;
+    width: 300px;
     height: 20px;
     border: 5px solid rgb(179, 179, 255);
     padding: 75px;
@@ -190,7 +191,7 @@ p {
 }
 
 .css {
-    width: 375px;
+    width: 300px;
     height: 20px;
     border: 5px solid rgb(179, 179, 255);
     padding: 75px;
@@ -209,21 +210,21 @@ footer {
     background-color: rgb(67, 81, 110);
     color: black;
     font-size: 110%;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-bottom: 2%;
-    margin-right: 150px;
+    margin-right: 10px;
 }
 footer p {
     text-decoration:  2px underline darkcyan;
     border-left: 2px solid rgba(212, 35, 11, 0.733);
     padding-left: 6%;
     padding-right: 0;
-    margin-left: 20%;
+    margin-left: 19%;
     padding-bottom: 75px;
     color: bisque; 
     display: flex;
     flex-wrap: wrap;
-    margin-right: 5px;
+    margin-right: 10px;
     font-style: oblique;
 }
 footer a:hover {
@@ -237,6 +238,7 @@ footer a:visited {
 footer a {
     background-color: rgb(67, 81, 110);
 }
+
 @media screen and (max-width: 1800px) {
 
     header {
@@ -252,7 +254,7 @@ footer a {
         
     }
     footer {
-        margin-left: -80px;
+        margin-left: 0px;
     }
     .containers {
         display:flex;
@@ -262,24 +264,27 @@ footer a {
         margin-right: 0;
         
     }
-}
+} 
 
 @media screen and (max-width: 1000px) {
     .containers {
         display:flex;
         flex-wrap: wrap;
         flex-direction: row;
-        margin-left: -400px;
-        width: 100%;
+        margin-left: -220px;
+        width: 1000px;
+        padding-top: 30px;
     }
 
     .stack {
-        height: 50px;
+        
+        padding-left: 160px;
+        
 
     }
     footer {
         margin-top: 75px;
-        margin-left: 150px;
+        margin-left: 175px;
         font-size: 120%;
         display: flex;
         flex-direction: column;
@@ -292,6 +297,7 @@ footer a {
         padding: 20px;
         border-bottom: 1.5px solid rgba(212, 35, 11, 0.733);
         font-style: oblique;
+        margin-left: 180px;
         
     }
     footer h2 {
@@ -320,6 +326,12 @@ footer a {
     }
     #about{
         margin-left: 150px;
+        color: antiquewhite;
+        font-style: italic;
+    }
+    #work {
+        color: antiquewhite;
+        font-style: italic;
     }
     p {
         margin-left: 100px;
@@ -328,15 +340,20 @@ footer a {
         padding-right: 100px;
         
     }
+    li {
+        background-color:rgb(17, 17, 17);
+    }
     footer {
         margin-top: 50px;
-        margin-left: 0;
+        margin-left: 0px;
         font-size: 120%;
         display: block;
     }
     footer p {
         border-bottom: none;
         padding-left: 170px;
+        padding-bottom: 15px;
+        margin-left: 50px;
         font-style: oblique;
     }
     footer a {
@@ -359,12 +376,24 @@ footer a {
         flex-wrap: wrap;
         flex-direction: column;
         margin-left: -555px;
+        
+        
     }
     .stack {
-        width: 205px;
+        width: 155px;
     }
-    li {
-        background-color:rgb(17, 17, 17);
+    .node {
+        width: 325px;
     }
+    .java {
+        width: 325px;
+    }
+    .mern {
+        width: 325px;
+    }
+    .css {
+        width: 325px;
+    }
+   
     
 }
