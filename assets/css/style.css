@@ -126,16 +126,15 @@ p {
 .containers {
     border-left: 2.5px solid rgba(212, 35, 11, 0.733);
     border-radius: 800px;
-    display: flex;
-    flex-wrap: wrap;
+    
 }
 .stack {
-    width: 600px;
+    width: 750px;
     height: 10px;
     border: 5px solid rgb(179, 179, 255);
-    padding: 160px;
+    padding: 162px;
     margin-left: 550px;
-    margin-right: 100px;
+    margin-right: 268px;
     background-image: url(https://images.unsplash.com/photo-1508896080210-93c377eb4135?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fHRlY2h8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
     object-fit: contain;
 }
@@ -157,7 +156,7 @@ p {
 
 .node {
     float: right;
-    width: 300px;
+    width: 375px;
     height: 20px;
     border: 5px solid rgb(179, 179, 255);
     padding: 75px;
@@ -168,7 +167,8 @@ p {
 }
 
 .java {
-    width: 300px;
+    
+    width: 375px;
     height: 20px;
     border: 5px solid rgb(179, 179, 255);
     padding: 75px;
@@ -180,7 +180,7 @@ p {
 
 .mern {
     float: right;
-    width: 300px;
+    width: 375px;
     height: 20px;
     border: 5px solid rgb(179, 179, 255);
     padding: 75px;
@@ -191,7 +191,7 @@ p {
 }
 
 .css {
-    width: 300px;
+    width: 375px;
     height: 20px;
     border: 5px solid rgb(179, 179, 255);
     padding: 75px;
@@ -254,7 +254,7 @@ footer a {
         
     }
     footer {
-        margin-left: 0px;
+        margin-left: -100px;
     }
     .containers {
         display:flex;
@@ -279,12 +279,13 @@ footer a {
     .stack {
         
         padding-left: 160px;
+        padding-right: 75px;
         
 
     }
     footer {
         margin-top: 75px;
-        margin-left: 175px;
+        margin-left: 160px;
         font-size: 120%;
         display: flex;
         flex-direction: column;
@@ -380,7 +381,7 @@ footer a {
         
     }
     .stack {
-        width: 155px;
+        width: 240px;
     }
     .node {
         width: 325px;
